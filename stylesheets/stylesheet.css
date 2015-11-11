@@ -26,6 +26,7 @@ a {
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn + .btn {
+    display: none;
     margin-left: 1rem; }
 
 .btn:hover {
@@ -51,7 +52,6 @@ a {
     font-size: 0.9rem; }
     .btn + .btn {
       margin-top: 1rem;
-      display: none;
       margin-left: 0; } }
 
 .page-header {
