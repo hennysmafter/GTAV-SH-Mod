@@ -34,6 +34,22 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: url("http://i62.tinypic.com/2em0l6a.jpg");
+    height: 80vh;
+    position: relative;
+}
+.page-header-inner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
